@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Its my Resumee</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: content-box;
+        }
+        nav{
+            height:50px;
+            width: 100%;
+            background-color: beige;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            border: solid azure;
+        }
+        .name{ 
+            width: 20%;
+            display: flex;
+            align-items: center;
+            justify-content: right;
+            /* font-style: oblique; */
+            font-size: xx-large;
+            font-weight: bolder;
+        }
+        div{
+         border-radius: 60%;
+         border: 18px solid rgba(187, 255, 0, 0.966);
+        }
+        .navigation{
+            font-weight: bold;
+        }
+        #myph{
+            border-radius: 40%; 
+            width: 450px;
+            height:450px;
+            margin: 15px; 
+        }
+        section{
+            width: 100%;
+            height: 550px;
+            background-color: rgba(192, 192, 192, 0.608);
+            display: flex;
+            align-items: center;
+        }
+        .background{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .background video {
+          position: absolute;
+          top:0;
+          left:0;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          z-index: -1;
+        }
+        #hello{
+            font-size: 100px;
+            font-weight: bolder;
+            font-style: oblique;  
+        }
+        h1{
+            font-size: large;
+            font-style: normal;
+        }
+        h3{
+            font-size: small;
+            font-style: normal;
+            font-weight: lighter;
+        }
+        section{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .threecle{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            border: solid;
+            height: 100px;
+            width: 100px;
+        }
+        footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;  
+        }
+        .insta{
+            height: 15px;
+            width: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <nav> 
+        <article class="name"><div></div>Abhishek P D</article>
+           <a href="qualification.html  " class="navigation">Resume</a>
+           <a href="projects.html" class="navigation">Projects</a>
+           <a href="cantact.html" class="navigation">Contact</a>
+    </nav>
+    <section class="background">
+        
+        <video id="videoheight" autoplay loop muted playsinline> 
+        <source src="back.mp4" type="video/mp4"></video>
+        <img id="myph" src="abhi.jpeg" alt="">
+        <article id="hello"> Hello <br>
+        <h1>A bit About Me</h1>
+        <h3> I'm a Engineer.As a Fresher don't have any <br> 
+             work experience but I can assure that I'm <br>
+             a quick learner and do good in anything
+             <br> given to me.
+        </h3>
+     </article>
+       <a href="qualification.html">
+         <aside class="threecle" style="background-color: orange;">Resume</aside>
+        </a>
+        <a href="projects.html">
+        <aside class="threecle" style="background-color: rgb(255, 0, 93);">Projects</aside>
+        </a>
+        <a href="cantact.html">
+        <aside class="threecle" style="background-color: skyblue">Contact</aside>
+        </a>
+    
+    </section>
+    <footer>
+         <aside class="footer"><h1>Phone</h1><h3>9380611714</h3></aside>
+         <aside class="footer"><h1>Email</h1><h3>abhipdgowda8@gmail.com</h3></aside>
+         <aside class="footer3"><h1>Follow Me</h1><h3><a href="https://instagram.com/itz_abhishekgowda?igshid=MzNlNGNkZWQ4Mg=="><img class="insta" src="Instagram-logo-.png" alt=""></a></h3></aside>
+    </footer>  
+</body> 
+</html>
